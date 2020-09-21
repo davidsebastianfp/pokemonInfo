@@ -1,16 +1,16 @@
-# pokeinfo
+To run the project locally
+---------
 
-A new Flutter application.
+1. Download the pokeinfo.zip file and unzip the file
+2. Open the folder from android studio. 
+3. Run flutter clean command.
+4. Finally run the project.
 
-## Getting Started
+**NOTE** To login use test@test.com as email and test12345 as password.
+**NOTE** For this project, I used flutter 1.20.4 sdk version
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Why did I choose the packages used in pubspeck.yaml
+-------
+1. I used shared_preferences to save the login and first open stutus in the device.
+2. I used http package to get info from the pokemo API.
+3. The flutter_spinkit is used to show the loading page when I'm fetching data from the server
